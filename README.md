@@ -7,6 +7,6 @@ The main functionality is contained in the *main.ipynb* ipython notebook. Curren
 The BO object in *main.ipynb* contains the main data and methods for operation and analysis of Bayesian Optimization. The data is fitted using a *GaussianProcessRegressor()* from *sklearn*. 
 
 ## Bayesian Optimization ##
-Each round of Bayesian Optimization, a the module randomly samples (1,000,000 by default) random sequences. The sequence which maximizes the acquisition function (EI by default) is chosen as the sequence to measure next round
+Each round of Bayesian Optimization, the module randomly samples (1,000,000 by default) random sequences. The sequence which maximizes the acquisition function (EI by default) is chosen as the sequence to measure next round
 
 
