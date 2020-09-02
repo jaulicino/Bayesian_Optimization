@@ -6,7 +6,7 @@ The main functionality is contained in the *main.ipynb* ipython notebook.
 ## Details ##
 The BO object in *main.ipynb* contains the main data and methods for operation and analysis of Bayesian Optimization. The data is fitted using a *GaussianProcessRegressor()* from *sklearn*. 
 
-Currently, "functionality score" is defined from a sequence's Hamming distance to a equal length sequence of alanine. However, this is intended to reflect the expirmental measurement of a sequences functionality 
+Currently, "functionality score" is defined from a sequence's Hamming distance to an equal length sequence of alanine. However, this is intended to be replaced with the experimental measurement of a sequences functionality eventually.
 
 ## Bayesian Optimization ##
 
